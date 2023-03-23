@@ -13,8 +13,11 @@ import java.util.List;
  * @Date: 2023/3/2318:13
  * @Descripton: 学生工厂具体实现类
  */
-public class DefaultUserFactory implements UserFactory{
+public class DefaultUserFactory implements UserFactory {
     private List<User> users = new ArrayList<User>();
+
+    public DefaultUserFactory() {
+    }
 
     public DefaultUserFactory(List<User> users) {
         this.users = users;
