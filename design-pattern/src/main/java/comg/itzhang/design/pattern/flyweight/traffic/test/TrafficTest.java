@@ -1,4 +1,4 @@
-package comg.itzhang.design.pattern.flyweight.test;
+package comg.itzhang.design.pattern.flyweight.traffic.test;
 
 import comg.itzhang.design.pattern.flyweight.traffic.factory.TrafficFactory;
 import comg.itzhang.design.pattern.flyweight.traffic.type.TrafficType;
